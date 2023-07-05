@@ -28,7 +28,7 @@ console.log(api.defaults.headers)
 
     yield put(signInSuccess(token, user));
  
-   if (pr==true) {
+   if (pr===true) {
    history.push('/dashboard');
     history.go('/dashboard');
    }else{
